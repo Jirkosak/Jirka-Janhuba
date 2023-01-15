@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Jirka Janhuba - domovská stránka</title>
+</head>
+
+<body>
+    <div id="homebar">
+        <button onclick="loadMainPage()">Domovská stránka</button>
+        <button onclick="loadSchoolPage()">Školní projekty</button>
+        <button onclick="loadPersonalPage()">Osobní experimenty</button>
+        <button onclick="displayDate()">Kontakty</button>
+        <h5 id="datum"></h5>
+
+    </div>
+    <section>
+        <h1>Jirka Janhuba - domovská stránka</h1>
+        <p>Student Informační Technologie, milovník přírody a zvířat, vášnivý bubeník, motorkář a posluchač asi všeho,
+            co existuje.</p>
+        <p>Neobejdu se bez sluchátek, kofeinu a Stack Overflow :)</p>
+        <div id="gallery">
+            <img src="resources/foto2.jpg" />
+            <img src="resources/foto1.jpg" />
+            <img src="resources/foto3.jpg" />
+            <img src="resources/foto4.jpg" />
+            <img src="resources/foto6.jpg" />
+            <img src="resources/foto5.jpg" />
+            <img src="resources/foto7.jpg" />
+            <video controls autoplay class="myVideo" id="myVideo">
+                <source src="resources/video1.mp4" type="video/mp4">
+                Toto video bohužel nelze přehrát.
+            </video>
+            <img src="resources/foto8.jpg" />
+        </div>
+    </section>
+        <div id="footer">
+            <div class="column" style="text-align: left;">
+                <h3>edodirjgjoisrjrgoisjrgoishjrrgh</h3>
+            </div>
+            <div class="column" style="text-align: center;">
+                <p><a href="mailto:jirkajanhuba05@gmail.com">Napsat e-mail</a></p>
+                <p><a href="">Napsat e-mail</a></p>
+                <p><a href="https://www.instagram.com/jirkosak/">Instagram</a></p>
+            </div>
+            <div class="column" style="text-align: right;"><p>© 2023 Jiří Janhuba.</p></div>
+        </div>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Jirka Janhuba - Školní projekty</title>
+</head>
+<body>
+    <div id="homebar">
+    <button onclick="loadMainPage()">Domovská stránka</button>
+    <button onclick="loadSchoolPage()">Školní projekty</button>
+    <button onclick="loadPersonalPage()">Osobní experimenty</button>
+    <button onclick="loadContactsPage()">Kontakty</button>
+    </div>
+    <section>
+        <h1><u>Školní projekty</u></h1>
+        <p>Zde schovávám své projekty ze školy</p>
+        <script src="ulohy/uloha1.js"></script>
+        <h2>Základy JavaScriptu</h2>
+        <hr>
+
+        <h3>Úloha 1 - Počítadlo návštěvníků ZOO</h3>
+        <div class="proj">
+        <h4 id="cislo">Počet návštěvníků je 0</h4>
+        <button id="plus" onclick="increment()">+</button>
+        <button id="minut" onclick="decrement()">-</button>
+        </div>
+    <h3>Úloha 2 - Skloňování slova po 3 sekundách</h3>
+    <div class="proj">
+        <button onclick="startSklonning()">Začít skloňovat</button>
+        <p id="slovo">Mám bicák.</p>
+    </div>
+        <h3>Úloha 3 - Uhádni větší číslo</h3>
+        <div class="proj">
+        <button onclick="start()">Start</button>
+        <button onclick="clicke1()" id="box1">0</button><button onclick="clicke2()" id="box2">0</button>
+        <h3 id="corr">Správně: 0</h3>
+        </div>
+        <hr>
+        <h1><u>Další projekty..</u></h1>
+
+    </section>
+</body>
+</html>
